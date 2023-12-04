@@ -1,10 +1,12 @@
 
-#include "picture.hpp"
+
 #include "graphics.h"
 #include <math.h>
+#define WIDTH 800
+#define HEIGHT 600
+#ifndef FLOWER_HPP
+#define FLOWER_HPP
 
-const int WIDTH=800;
-const int HEIGHT=600;
 
 void flower(int x, int y)
 {
@@ -24,3 +26,4 @@ void flower(int x, int y)
    fillellipse(x+10, y+40, 10, 6);
    fillellipse(x-10, y+40, 10, 6);
 }
+#endif

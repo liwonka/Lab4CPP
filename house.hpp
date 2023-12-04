@@ -1,5 +1,6 @@
 #include "graphics.h"
-#include "picture.hpp"
+#ifndef HOUSE_HPP
+#define HOUSE_HPP
 void house() {
   
     // Create lines for structure 
@@ -37,3 +38,4 @@ void house() {
     floodfill(251, 121, WHITE); 
  
 }
+#endif
